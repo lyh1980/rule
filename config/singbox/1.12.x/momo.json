@@ -112,7 +112,7 @@
 		},
 		{
 			"tag": "🇭🇰 香港手动",
-			"type": "selector",
+			"type": "urltest",
 			"outbounds": ["{all}"],
 			"filter": [{
 				"action": "include",
@@ -120,11 +120,14 @@
 			}, {
 				"action": "exclude",
 				"keywords": ["免费"]
-			}]
+			}],
+             "url": "http://www.gstatic.com/generate_204",
+             "interval": "10m",
+             "tolerance": 50
 		},
 		{
 			"tag": "🇯🇵 日本手动",
-			"type": "selector",
+			"type": "urltest",
 			"outbounds": ["{all}"],
 			"filter": [{
 				"action": "include",
@@ -132,11 +135,14 @@
 			}, {
 				"action": "exclude",
 				"keywords": ["免费"]
-			}]
+			}],
+             "url": "http://www.gstatic.com/generate_204",
+             "interval": "10m",
+             "tolerance": 50
 		},
 		{
 			"tag": "🇸🇬 狮城手动",
-			"type": "selector",
+			"type": "urltest",
 			"outbounds": ["{all}"],
 			"filter": [{
 				"action": "include",
@@ -144,11 +150,14 @@
 			}, {
 				"action": "exclude",
 				"keywords": ["免费"]
-			}]
+			}],
+             "url": "http://www.gstatic.com/generate_204",
+             "interval": "10m",
+             "tolerance": 50
 		},
 		{
 			"tag": "🇺🇲 美国手动",
-			"type": "selector",
+			"type": "urltest",
 			"outbounds": ["{all}"],
 			"filter": [{
 				"action": "include",
@@ -156,7 +165,10 @@
 			}, {
 				"action": "exclude",
 				"keywords": ["AUS|RUS|免费"]
-			}]
+			}],
+             "url": "http://www.gstatic.com/generate_204",
+             "interval": "10m",
+             "tolerance": 50
 		},
 		{
 			"tag": "🐸 手动选择",
@@ -175,8 +187,9 @@
 				"action": "exclude",
 				"keywords": ["官网|到期时间|剩余|流量|套餐|免费|订阅|全球直连|GB|Expire Date|Traffic|ExpireDate"]
 			}],
-			"interval": "10m",
-			"tolerance": 100
+             "url": "http://www.gstatic.com/generate_204",
+             "interval": "10m",
+             "tolerance": 50
 		},
 		{
 			"tag": "🍃 延迟辅助",
