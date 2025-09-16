@@ -12,7 +12,7 @@
       {"query_type": "HTTPS", "action": "reject"},
       {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "foreign"},
       {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "local"},
-      {"domain_suffix": ["lyh1980.tk"], "query_type": ["A", "AAAA"], "server": "local"}
+      {"domain_suffix": ["lyh1980.tk"], "query_type": ["A", "AAAA"], "server": "local"},
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
     ],
     "final": "foreign",
